@@ -63,7 +63,7 @@ export default function App() {
               <BarChart3 className="w-6 h-6" />
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-tight text-slate-800">工程实施及预算进度监管流转流程</h1>
+              <h1 className="text-xl font-bold tracking-tight text-slate-800">工程实施及预算进度监管流程</h1>
             </div>
           </div>
           <div className="hidden md:flex items-center gap-1 bg-slate-100 p-1 rounded-xl">
