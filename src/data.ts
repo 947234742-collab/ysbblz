@@ -50,16 +50,6 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
     name: '省级层级',
     workflows: [
       {
-        id: 'provincial-default',
-        title: '省级基础流程',
-        steps: [
-          { title: '填报、上报', role: '省级二级预算单位', description: '完成基础业务数据填报' },
-          { title: '审核、补填、上报', role: '厅级业务处室', description: '单位内部层级审核' },
-          { title: '复审、汇总、上报', role: '业务处室(按项目)', description: '按项目分类对应处室进行复核' },
-          { title: '统筹汇总', role: '预算处', description: '省级全口径资金统筹汇总' },
-        ]
-      },
-      {
         id: 'central-investment',
         title: '中央预算内投资项目',
         steps: [
