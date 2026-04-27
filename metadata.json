@@ -1,0 +1,6 @@
+{
+  "name": "预算编报流转系统",
+  "description": "展示县、市、省三级预算编报及流转的标准化工作流程图，支持省级多维度项目分类查询。",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
