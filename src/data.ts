@@ -24,7 +24,7 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
         title: '县级预算编报基础流程',
         steps: [
           { title: '填报、上报', role: '县级预算单位', description: '发起预算填报任务并初审上报' },
-          { title: '审核、补填、上报', role: '县级对口业务处室', description: '核对业务数据，必要时补充录入' },
+          { title: '审核、补填、汇总、上报', role: '县级对口业务处室', description: '核对业务数据，必要时补充录入' },
           { title: '汇总、上报', role: '县级牵头业务处室（选填）', description: '全县数据总体汇总及最终报送' },
         ]
       }
@@ -39,7 +39,7 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
         title: '市级预算编报基础流程',
         steps: [
           { title: '填报、上报', role: '市级预算单位', description: '发起预算填报任务并初审上报' },
-          { title: '审核、补填、上报', role: '市级对口业务处室', description: '核对业务数据，必要时补充录入' },
+          { title: '审核、补填、汇总、上报', role: '市级对口业务处室', description: '核对业务数据，必要时补充录入' },
           { title: '汇总、上报', role: '市级牵头业务处室（选填）', description: '全市数据总体汇总及最终报送' },
         ]
       }
@@ -74,7 +74,8 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
         title: '超长期特别国债 - “两重”项目',
         steps: [
           { title: '填报、上报', role: '省级二级预算单位', description: '填报国家重大战略和安全能力建设数据' },
-          { title: '审核、补填、上报', role: '业务处', description: '行业主管业务处室关键性审核' },
+          { title: '汇总、上报', role: '省级一级预算单位', description: '汇总建设数据' },
+          { title: '审核、补填、汇总、上报', role: '业务处', description: '行业主管业务处室关键性审核' },
           { title: '统筹汇总', role: '预算处', description: '国家级重大项目专项统筹' },
         ]
       },
