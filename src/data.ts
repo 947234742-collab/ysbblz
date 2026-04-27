@@ -54,7 +54,8 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
         title: '中央预算内投资项目',
         steps: [
           { title: '填报、上报', role: '省级二级预算单位', description: '填报中央预算内投资专项数据' },
-          { title: '审核、补填、上报', role: '经建处', description: '负责经济建设领域投资审核' },
+          { title: '汇总、上报', role: '省级一级预算单位', description: '汇总数据' },
+          { title: '审核、补填、汇总、上报', role: '经建处', description: '负责经济建设领域投资审核' },
           { title: '统筹汇总', role: '预算处', description: '纳入全省综合预算平衡' },
         ]
       },
@@ -63,8 +64,8 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
         title: '超长期特别国债 - “两新”项目',
         steps: [
           { title: '填报、上报', role: '省级二级预算单位', description: '填报设备更新与消费品以旧换新数据' },
-          { title: '审核、补填、上报', role: '业务处', description: '对应行业主管业务处室初审' },
-          { title: '复审、汇总、上报', role: '经建处', description: '牵头负责特别国债资金平衡' },
+          { title: '汇总、上报', role: '省级一级预算单位', description: '汇总数据' },
+          { title: '审核、补填、汇总、上报', role: '经建处', description: '牵头负责特别国债资金平衡' },
           { title: '统筹汇总', role: '预算处', description: '完成预算总集成' },
         ]
       },
@@ -82,8 +83,8 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
         title: '债券项目',
         steps: [
           { title: '填报、上报', role: '省级二级预算单位', description: '填报新增专项债/一般债项目数据' },
-          { title: '审核、补填、上报', role: '业务处', description: '业务合规性初筛' },
-          { title: '复审、汇总、上报', role: '市县债务部', description: '债务限额与还款能力穿透审核' },
+          { title: '汇总、上报', role: '省级一级预算单位', description: '汇总数据' },
+          { title: '审核、补填、汇总、上报', role: '市县债务部', description: '债务限额与还款能力穿透审核' },
           { title: '统筹汇总', role: '预算处', description: '纳入政府债务预算管理' },
         ]
       },
@@ -92,7 +93,8 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
         title: '常态化帮扶资金项目',
         steps: [
           { title: '填报、上报', role: '省级二级预算单位', description: '不含债券安排部分的帮扶资金填报' },
-          { title: '审核、补填、上报', role: '农业处', description: '对口农业农村与扶贫工作审核' },
+          { title: '汇总、上报', role: '省级一级预算单位', description: '汇总债券安排部分的帮扶资金填报' },
+          { title: '审核、补填、汇总、上报', role: '农业处', description: '对口农业农村与扶贫工作审核' },
           { title: '统筹汇总', role: '预算处', description: '跨部门帮扶资金综合协调' },
         ]
       }
