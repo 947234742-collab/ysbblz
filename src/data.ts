@@ -25,7 +25,7 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
         steps: [
           { title: '填报、上报', role: '县级预算单位', description: '发起预算填报任务并初审上报' },
           { title: '审核、补填、上报', role: '县级对口业务处室', description: '核对业务数据，必要时补充录入' },
-          { title: '汇总、上报', role: '县级牵头业务处室', description: '全县数据总体汇总及最终报送' },
+          { title: '汇总、上报', role: '县级牵头业务处室（选填）', description: '全县数据总体汇总及最终报送' },
         ]
       }
     ]
@@ -40,7 +40,7 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
         steps: [
           { title: '填报、上报', role: '市级预算单位', description: '发起预算填报任务并初审上报' },
           { title: '审核、补填、上报', role: '市级对口业务处室', description: '核对业务数据，必要时补充录入' },
-          { title: '汇总、上报', role: '市级牵头业务处室', description: '全市数据总体汇总及最终报送' },
+          { title: '汇总、上报', role: '市级牵头业务处室（选填）', description: '全市数据总体汇总及最终报送' },
         ]
       }
     ]
