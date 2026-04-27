@@ -174,7 +174,7 @@ export default function App() {
                 {activeWorkflow.title}
               </h2>
               <p className="text-slate-500 mt-2 max-w-2xl font-medium">
-                标准化预算编报流转程序，确保资金各环节审批合规、路径清晰。
+                标准化流转程序，确保资金各环节审批合规、路径清晰。
               </p>
             </div>
 
