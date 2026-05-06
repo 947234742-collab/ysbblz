@@ -65,7 +65,7 @@ export const WORKFLOW_DATA: WorkflowGroup[] = [
         steps: [
           { title: '填报、上报', role: '省级二级预算单位', description: '填报设备更新与消费品以旧换新数据' },
           { title: '汇总、上报', role: '省级一级部门', description: '汇总数据' },
-          { title: '审核、补填、汇总、上报', role: '业务处', description: '牵头负责特别国债资金平衡' }
+          { title: '审核、补填、汇总、上报', role: '业务处', description: '牵头负责特别国债资金平衡' },
           { title: '汇总、上报', role: '经建处', description: '牵头负责特别国债资金平衡' },
           { title: '统筹汇总', role: '预算处', description: '完成预算总集成' },
         ]
